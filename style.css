@@ -504,14 +504,14 @@ li{
         padding: 10px;
     }
 
-    .intro{
+    /*.intro{
     font-size: 4vh ;
     text-align: center;
     max-width: 80%;
     padding-top: 15%;
     padding-bottom: 20%;
 
-    }   
+    }   */
 
     .indexBlurb {
         font-size: 2.4vh;  
@@ -610,6 +610,75 @@ li{
         font-size: 4vh; /* Increased font size for readability */
         top: -10px; /* Adjust positioning */
         height: 25vh; /* Adjust height to fit within the .course */
+    }
+    .intro {
+        font-size: 4vh;
+        margin-left: 5%;
+        max-width: 90%;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+
+    .lastReadTitle, .baking {
+        margin-left: 5%;
+    }
+
+    .lastRead {
+        margin-left: 2%;
+        max-width: 90%;
+        font-size: 2.5vh;
+        line-height: 3.5vh;
+    }
+
+    .bookInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bookStuff {
+        margin: 0;
+        padding: 5%;
+    }
+
+    .book, .cakeImg {
+        width: 80%;
+        height: auto;
+        margin: 5% 0;
+    }
+
+    .rating {
+        width: 70%;
+    }
+
+    .cake {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cakeInfo {
+        margin: 0;
+        padding: 5%;
+    }
+
+    .allIngr {
+        flex-direction: column;
+        border: none;
+        padding: 0;
+    }
+
+    .ingr {
+        padding-right: 0;
+    }
+
+    .doggo {
+        width: 80%;
+        height: auto;
+        padding: 5% 0;
+    }
+
+    .dogs {
+        flex-direction: column;
+        align-items: center;
     }
 
 
