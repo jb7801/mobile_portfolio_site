@@ -498,7 +498,7 @@ li{
     .navBar {
         margin-top: 10px;
         margin-right: 0;
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
         justify-content: center;
     }
     .nbItem{
@@ -629,6 +629,10 @@ li{
         gap: 2vh; 
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .language{
+        width: 2%;
+        height: 2%;
     }
 
     .intro {
