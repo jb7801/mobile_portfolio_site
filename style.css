@@ -265,10 +265,11 @@ li{
     border-radius: 60%;
 }
 
+
+/* PROJECT PAGE */
 .projSubtitle{
     margin-left: 7%;
 }
-
 
 .compArch {
     display: flex;
@@ -503,7 +504,7 @@ li{
     .intro{
     font-size: 4.2vh ;
     text-align: center;
-    max-width: 70%;
+    max-width: 80%;
     padding-top: 15%;
     padding-bottom: 20%;
 
@@ -528,4 +529,72 @@ li{
         height: auto;
         margin-bottom: 20px;
     }
+    /* Existing CSS */
+/* ... (all your existing styles) ... */
+
+/* Mobile-specific styles using a media query */
+@media only screen and (max-width: 460px) {
+
+    .projSubtitle {
+        margin-left: 5%;
+        font-size: 1.2em; /* Adjust the font size if needed */
+    }
+
+    .compArch {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .projInfo {
+        margin-left: 5%;
+        padding-right: 5%;
+        font-size: 2vh; /* Adjust the font size for mobile */
+    }
+
+    .asmPic {
+        width: 90%;
+        margin: 0 auto; /* Center the image */
+    }
+
+    .ct {
+        margin-top: 5%;
+    }
+
+    .vip {
+        flex-direction: column;
+        margin: 2%;
+    }
+
+    .vipInfo {
+        width: 100%;
+        margin-bottom: 1em; /* Space between .vipInfo elements on mobile */
+    }
+
+    .vipBlurb {
+        font-size: 2vh; /* Adjust the font size for mobile */
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .post {
+        width: 90%; /* Make the post width responsive */
+        height: auto; /* Adjust height as necessary, or consider keeping it proportional */
+        margin: 0 auto; /* Center the post */
+    }
+
+    .DS {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .daniPic {
+        width: 90%; /* Adjust width for mobile screens */
+        margin: 0 auto; /* Center the image */
+    }
+
+}
+
 }
