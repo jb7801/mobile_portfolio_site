@@ -18,7 +18,7 @@ h2{
 }
 
 h3 {
-    font-size: 2.8vh;
+    font-size: 2.7vh;
 }
 li{
     font-size: 2vh;
@@ -129,18 +129,18 @@ li{
     font-weight: 300;
     margin-left: 12%;
     margin-right: 12%;
+    padding-bottom: 5%;
 }
 
 .course {
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     font-weight: 300;
-    padding: 3%;
-    padding-top: 3%;
-    padding-bottom: 6%;
-    width: auto; 
-    height: 12vh;
+    padding: 10%;
+    width: 70%; 
+    height: 25vh;
     cursor: pointer;
     border-radius: 10px;
     position: relative;
@@ -152,10 +152,13 @@ li{
     font-size: 2.2vh;
     position: absolute; 
     text-align: center;
+    align-items: center;
     padding: 20%;
-    top: -35px;
+    padding-top: 20%;
+    top: -20px;
     width: 100%;
     height: 20vh;
+    max-width: 75%;
     color: #fff6e3 ;
     border-radius: 10px;
    
@@ -505,6 +508,7 @@ li{
     font-size: 4.2vh ;
     text-align: center;
     max-width: 80%;
+    max-height: 20vh;
     padding-top: 15%;
     padding-bottom: 20%;
 
@@ -529,11 +533,6 @@ li{
         height: auto;
         margin-bottom: 20px;
     }
-    /* Existing CSS */
-/* ... (all your existing styles) ... */
-
-/* Mobile-specific styles using a media query */
-@media only screen and (max-width: 460px) {
 
     .projSubtitle {
         margin-left: 5%;
@@ -595,6 +594,5 @@ li{
         margin: 0 auto; /* Center the image */
     }
 
-}
 
 }
