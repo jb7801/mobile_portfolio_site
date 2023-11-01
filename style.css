@@ -643,6 +643,8 @@ li{
         max-width: 90%;
         font-size: 1.5vh;
         line-height: 3.5vh;
+        text-align: justify; 
+        text-justify: inter-word; 
     }
 
     .bookInfo {
