@@ -546,7 +546,8 @@ li{
     height: auto; 
     font-size: 1.5vh;
     padding: 1em; 
-    padding-left 10px
+    padding-left: 10px; 
+    text-justify: inter-word;  
     }
 
 
@@ -596,16 +597,16 @@ li{
 
     .courseGallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
-    gap: 3vh; /* Gap between grid items */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 3vh; 
     margin-left: 5%;
     margin-right: 5%;
     }
 
     .course {
         width: 90%; 
-        height: 30vh; /* Increased height to make room for .courseBlurb */
-        padding: 5%; /* Reduced padding for more space */
+        height: 30vh;
+        padding: 5%; 
     }
 
     .courseBlurb {
