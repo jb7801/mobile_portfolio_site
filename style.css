@@ -466,6 +466,9 @@ li{
         font-size: 2.5vh;
         text-align: center;
     }
+    li{
+        font-size: 1.5vh;
+    }
     
     .topBar {
         flex-direction: column;
