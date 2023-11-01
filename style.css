@@ -445,6 +445,11 @@ li{
     display: flex;
     justify-content: center;
 }
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
 
 /* Media Query for Mobile */
 @media only screen and (max-width: 460px) {
@@ -536,13 +541,12 @@ li{
     }
 
     .projInfo {
-    width: 95%; /* Increased from 80% for more width */
-    max-width: 600px; /* You can set a max-width so it doesn't become too wide on larger screens */
-    height: auto; /* Make height dynamic based on content. Fixed heights can be tricky for responsive design */
+    width: 95%; 
+    max-width: 600px;
+    height: auto; 
     font-size: 1.5vh;
-    padding: 1em; /* Add some padding to give content some room */
-    box-sizing: border-box; /* This ensures padding doesn't add to the total width */
-    overflow-wrap: break-word; /* Breaks long strings of text to next line */
+    padding: 1em; 
+    padding-left 10px
     }
 
 
@@ -587,6 +591,7 @@ li{
     .daniPic {
         width: 90%; 
         margin: 0 auto;
+        justify-content: center;
     }
 
     .courseGallery {
@@ -672,8 +677,8 @@ li{
     .allIngr {
         flex-direction: row;
         border: 1px solid;
-        font-size: 1.5vh;
-        padding: 0;
+        font-size: 0.8vh;
+        padding: 5px;
     }
 
     .ingr {
