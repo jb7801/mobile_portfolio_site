@@ -536,14 +536,13 @@ li{
     }
 
     .projInfo {
-    width: 90%; /* Increased from 80% for more width */
+    width: 95%; /* Increased from 80% for more width */
     max-width: 600px; /* You can set a max-width so it doesn't become too wide on larger screens */
     height: auto; /* Make height dynamic based on content. Fixed heights can be tricky for responsive design */
-    font-size: 2vh;
+    font-size: 1.5vh;
     padding: 1em; /* Add some padding to give content some room */
     box-sizing: border-box; /* This ensures padding doesn't add to the total width */
     overflow-wrap: break-word; /* Breaks long strings of text to next line */
-    margin: 0 auto; /* Center the element if it's inside a larger container */
     }
 
 
