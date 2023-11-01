@@ -613,6 +613,8 @@ li{
     .course {
         width: 90%; 
         padding: 5%; 
+        width: 100px;
+        height: 100px;
     }
 
     .courseBlurb {
@@ -692,7 +694,7 @@ li{
 
     .ingr {
         padding-right: 5px;
-        font-size: 1.2vh;
+        font-size: 1.5vh;
     }
 
     .doggo {
