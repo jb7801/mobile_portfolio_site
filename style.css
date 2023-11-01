@@ -124,9 +124,9 @@ li{
 
 /* SKILLS PAGE  */
 .courseGallery {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vh;
     padding-left: 5%;
     padding-right: 5%;
     font-weight: 300;
@@ -135,7 +135,6 @@ li{
 }
 
 .course {
-    position: relative; 
     display: flex;
     justify-content: center;
     text-align: center;
@@ -143,12 +142,13 @@ li{
     padding: 3%;
     padding-top: 3%;
     padding-bottom: 6%;
-    margin: 4vh;
-    width: 16%;
+    width: auto; 
     height: 12vh;
-    cursor: pointer; 
+    cursor: pointer;
     border-radius: 10px;
+    position: relative;
 }
+
 
 .courseBlurb {
     display: none; 
@@ -490,7 +490,7 @@ li{
     }
 
     h2 {
-        font-size: 4vh;
+        font-size: 3.3vh;
         margin-left: 0;
     }
 
@@ -500,7 +500,7 @@ li{
     }
 
     .indexBlurb {
-        font-size: 2.2vh;  
+        font-size: 2.4vh;  
         line-height: 3vh;      
         padding: 10% 5%;           
         text-align: justify;    
