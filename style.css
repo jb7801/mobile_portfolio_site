@@ -24,28 +24,8 @@ li{
     font-size: 2vh;
 }
 
-/* Moile Version Nav Bar Updates  */
-@media only screen and (max-width: 460px) {
-.navBar{
-
-    padding-top: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 1.9vh;
-    display: flex;
-    text-align: left;
-    line-height: 0%;
-    justify-content: space-around;
-    text-decoration: none;
-    position: relative;
 
 
-}
-
-}
-
-/*-----------------------------------------------------------------------------*/
-/* Desktop Version Nav Bar  */
 .topBar{
     padding-top: 30px;
     display: flex;
@@ -112,7 +92,7 @@ li{
     display: block;
 }
 
-/*-----------------------------------------------------------------------------*/
+
 /* HOME PAGE  */
 .indexBlurb {
     line-height: 5vh;
@@ -465,4 +445,77 @@ li{
     justify-content: center;
 }
 
+/* Media Query for Mobile */
+@media only screen and (max-width: 460px) {
+    
+    body {
+        padding: 5%;
+    }
+    
+    .topBar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navBar{
 
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.7vh;
+    display: flex;
+    text-align: left;
+    margin-right: 90px;
+    line-height: 0%;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+    .name {
+        font-size: 3.5vh;
+        position: initial;
+        padding-left: 0;
+    }
+
+    .navBar {
+        margin-top: 10px;
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nbItem, .dropdown {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 4vh;
+        margin-left: 0;
+    }
+
+    h3 {
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    .indexBlurb {
+        font-size: 2.2vh;  
+        line-height: 3vh;      
+        padding: 10% 5%;           
+        text-align: justify;    
+        text-justify: inter-word;   
+    }
+
+    .meSec {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .mePic {
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
