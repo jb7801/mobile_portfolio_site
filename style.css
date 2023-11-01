@@ -546,8 +546,7 @@ li{
     }
 
     .projInfo {
-        margin-left: 5%;
-        padding-right: 5%;
+        width: 80%;
         font-size: 2vh; /* Adjust the font size for mobile */
     }
 
