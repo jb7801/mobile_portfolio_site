@@ -505,10 +505,9 @@ li{
     }
 
     .intro{
-    font-size: 4.2vh ;
+    font-size: 4vh ;
     text-align: center;
     max-width: 80%;
-    max-height: 20vh;
     padding-top: 15%;
     padding-bottom: 20%;
 
@@ -536,7 +535,7 @@ li{
 
     .projSubtitle {
         margin-left: 5%;
-        font-size: 1.2em; /* Adjust the font size if needed */
+        font-size: 1.2em; 
     }
 
     .compArch {
@@ -547,12 +546,13 @@ li{
 
     .projInfo {
         width: 80%;
-        font-size: 2vh; /* Adjust the font size for mobile */
+        height: 20vh;
+        font-size: 2vh; 
     }
 
     .asmPic {
         width: 90%;
-        margin: 0 auto; /* Center the image */
+        margin: 0 auto; 
     }
 
     .ct {
@@ -566,19 +566,19 @@ li{
 
     .vipInfo {
         width: 100%;
-        margin-bottom: 1em; /* Space between .vipInfo elements on mobile */
+        margin-bottom: 1em;
     }
 
     .vipBlurb {
-        font-size: 2vh; /* Adjust the font size for mobile */
+        font-size: 2vh; 
         padding-left: 2%;
         padding-right: 2%;
     }
 
     .post {
-        width: 90%; /* Make the post width responsive */
-        height: auto; /* Adjust height as necessary, or consider keeping it proportional */
-        margin: 0 auto; /* Center the post */
+        width: 90%;
+        height: auto; 
+        margin: 0 auto;
     }
 
     .DS {
@@ -589,8 +589,27 @@ li{
     }
 
     .daniPic {
-        width: 90%; /* Adjust width for mobile screens */
-        margin: 0 auto; /* Center the image */
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+        .courseGallery {
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 3vh;
+    }
+
+    .course {
+        width: 90%; 
+        height: 30vh; /* Increased height to make room for .courseBlurb */
+        padding: 5%; /* Reduced padding for more space */
+    }
+
+    .courseBlurb {
+        font-size: 4vh; /* Increased font size for readability */
+        top: -10px; /* Adjust positioning */
+        height: 25vh; /* Adjust height to fit within the .course */
     }
 
 
