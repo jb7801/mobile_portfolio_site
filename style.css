@@ -547,7 +547,7 @@ li{
         font-size: 1.5vh;
         padding: 1em; 
         padding-left: 10px; 
-        padding-right: 10px;
+        padding-right: 30px;
         text-align: justify; 
         text-justify: inter-word;  
     }
@@ -600,8 +600,6 @@ li{
     .courseGallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        max-height: 80%;
-        max-height: 20vh;
         gap: 3vh; 
         margin-left: 5%;
         margin-right: 5%;
@@ -614,9 +612,9 @@ li{
     }
 
     .courseBlurb {
-        font-size: 4vh; /* Increased font size for readability */
-        top: -10px; /* Adjust positioning */
-        height: 25vh; /* Adjust height to fit within the .course */
+        font-size: 4vh;
+        top: -10px; 
+        height: 25vh; 
     }
 
     .langGallary{
