@@ -591,10 +591,11 @@ li{
     }
 
     .courseGallery {
-        grid-template-columns: 1fr;
-        margin-left: 10%;
-        margin-right: 10%;
-        gap: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 3vh; /* Gap between grid items */
+    margin-left: 5%;
+    margin-right: 5%;
     }
 
     .course {
@@ -608,6 +609,16 @@ li{
         top: -10px; /* Adjust positioning */
         height: 25vh; /* Adjust height to fit within the .course */
     }
+
+    .skillsGallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+        grid-template-rows: repeat(4, auto); /* 4 rows that adjust based on content */
+        gap: 2vh; /* Gap between grid items */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .intro {
         font-size: 2.5vh;
         margin-left: 5%;
