@@ -612,7 +612,8 @@ li{
 
     .course {
         padding: 5%; 
-        width: 100%;
+        font-size: ;
+        width: 50%;
         height: 5vh;
     }
 
@@ -631,8 +632,8 @@ li{
         margin-right: 5%;
     }
     .language{
-        width: 8%;
-        height: 5vh;
+        width: 10%;
+        height: 3vh;
 
     }
 
