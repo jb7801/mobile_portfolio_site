@@ -463,7 +463,7 @@ li{
     }
 
     h3 {
-        font-size: 2.5vh;
+        font-size: 2vh;
         text-align: center;
     }
     li{
@@ -631,8 +631,9 @@ li{
         margin-right: 5%;
     }
     .language{
-        width: 2%;
-        height: 2%;
+        width: 8%;
+        height: 10vh;
+
     }
 
     .intro {
