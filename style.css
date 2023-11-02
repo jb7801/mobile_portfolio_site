@@ -605,9 +605,9 @@ li{
     .courseGallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        gap: 1vh; 
-        margin-left: 2%;
-        margin-right: 2%;
+        gap: 3vh; 
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .course {
