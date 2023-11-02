@@ -605,15 +605,15 @@ li{
     .courseGallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
-        gap: 3vh; 
-        margin-left: 5%;
-        margin-right: 5%;
+        gap: 1vh; 
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .course {
         padding: 5%; 
         font-size: 1.5vh ;
-        width: 50%;
+        width: 10%;
         height: 5vh;
     }
 
@@ -633,7 +633,7 @@ li{
     }
     .language{
         width: 10%;
-        height: 3vh;
+        height: 1vh;
 
     }
 
