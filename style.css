@@ -498,7 +498,7 @@ li{
     .navBar {
         margin-top: 10px;
         margin-right: 0;
-        flex-wrap: no-wrap;
+        flex-wrap: wrap;
         justify-content: center;
     }
     .nbItem{
@@ -612,8 +612,8 @@ li{
 
     .course {
         padding: 5%; 
-        width: 8%;
-        height: 10vh;
+        width: 100%;
+        height: 5vh;
     }
 
     .courseBlurb {
@@ -632,7 +632,7 @@ li{
     }
     .language{
         width: 8%;
-        height: 10vh;
+        height: 5vh;
 
     }
 
